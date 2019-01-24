@@ -1,0 +1,23 @@
+{
+    "name": "contatos/contatos",
+    "description": "Lista de contatos",
+    "type": "project",
+    "require": {
+        "mongodb/mongodb": "^1.4.2",
+        "web-token/jwt-core": "^1.2@dev",
+        "web-token/jwt-encryption": "^1.2@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src" 
+        }
+    },
+    "license": "A",
+    "authors": [
+        {
+            "name": "Bruno R. Holanda",
+            "email": "bruno@engtecnologia.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
